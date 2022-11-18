@@ -1,4 +1,4 @@
-import { PRODUCT_LIST, SET_PRODUCT_LIST } from "./constant";
+import { PRODUCT_LIST, SEARCH_PRODUCT, SET_PRODUCT_LIST } from "./constant";
 
 export const productData = (data = [], action) => {
     switch (action.type) {
